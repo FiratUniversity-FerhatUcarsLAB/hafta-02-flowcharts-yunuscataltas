@@ -1,0 +1,394 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2048pt" height="1225pt" viewBox="0.00 0.00 2048.00 1225.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1221.2)">
+<title>Ders_Kayit_Sistemi</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1221.2 2043.84,-1221.2 2043.84,4 -4,4"/>
+<!-- BASLA -->
+<g id="node1" class="node">
+<title>BASLA</title>
+<ellipse fill="lightgreen" stroke="black" cx="1604.3" cy="-1199.2" rx="41.1" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="1604.3" y="-1195" font-family="Helvetica,sans-Serif" font-size="14.00">BAŞLA</text>
+</g>
+<!-- OKU_GIRIS -->
+<g id="node3" class="node">
+<title>OKU_GIRIS</title>
+<polygon fill="yellow" stroke="black" points="1762.9,-1144.2 1510.61,-1144.2 1445.71,-1108.2 1698,-1108.2 1762.9,-1144.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1604.3" y="-1122" font-family="Helvetica,sans-Serif" font-size="14.00">OKU: Öğrenci No, Şifre</text>
+</g>
+<!-- BASLA&#45;&gt;OKU_GIRIS -->
+<g id="edge1" class="edge">
+<title>BASLA-&gt;OKU_GIRIS</title>
+<path fill="none" stroke="black" d="M1604.3,-1181.01C1604.3,-1173.43 1604.3,-1164.3 1604.3,-1155.74"/>
+<polygon fill="black" stroke="black" points="1607.8,-1155.74 1604.3,-1145.74 1600.8,-1155.74 1607.8,-1155.74"/>
+</g>
+<!-- BITIR -->
+<g id="node2" class="node">
+<title>BITIR</title>
+<ellipse fill="lightgreen" stroke="black" cx="96.3" cy="-130.4" rx="41.08" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="96.3" y="-126.2" font-family="Helvetica,sans-Serif" font-size="14.00">BİTİR</text>
+</g>
+<!-- KIMLIK_DOGRULANDI_MI -->
+<g id="node16" class="node">
+<title>KIMLIK_DOGRULANDI_MI</title>
+<polygon fill="orange" stroke="black" points="1604.3,-1055.4 1392.9,-1037.4 1604.3,-1019.4 1815.71,-1037.4 1604.3,-1055.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1604.3" y="-1033.2" font-family="Helvetica,sans-Serif" font-size="14.00">Kimlik Doğrulama Başarılı mı?</text>
+</g>
+<!-- OKU_GIRIS&#45;&gt;KIMLIK_DOGRULANDI_MI -->
+<g id="edge2" class="edge">
+<title>OKU_GIRIS-&gt;KIMLIK_DOGRULANDI_MI</title>
+<path fill="none" stroke="black" d="M1603.11,-1107.76C1602.78,-1102.16 1602.47,-1095.92 1602.3,-1090.2 1602.09,-1082.74 1602.09,-1080.86 1602.3,-1073.4 1602.36,-1071.3 1602.44,-1069.13 1602.54,-1066.95"/>
+<polygon fill="black" stroke="black" points="1606.03,-1067.16 1603.05,-1056.99 1599.04,-1066.8 1606.03,-1067.16"/>
+</g>
+<!-- OKU_ISLEM -->
+<g id="node4" class="node">
+<title>OKU_ISLEM</title>
+<polygon fill="yellow" stroke="black" points="1806.93,-966.6 1484.6,-966.6 1401.68,-930.6 1724.01,-930.6 1806.93,-966.6"/>
+<text xml:space="preserve" text-anchor="middle" x="1604.3" y="-944.4" font-family="Helvetica,sans-Serif" font-size="14.00">OKU: İşlem Seçimi (E/Ç/O/T)</text>
+</g>
+<!-- ISLEM_ONAYLA -->
+<g id="node17" class="node">
+<title>ISLEM_ONAYLA</title>
+<polygon fill="orange" stroke="black" points="950.3,-893.6 787.47,-875.6 950.3,-857.6 1113.14,-875.6 950.3,-893.6"/>
+<text xml:space="preserve" text-anchor="middle" x="950.3" y="-871.4" font-family="Helvetica,sans-Serif" font-size="14.00">İşlem ONAYLA (3) mı?</text>
+</g>
+<!-- OKU_ISLEM&#45;&gt;ISLEM_ONAYLA -->
+<g id="edge5" class="edge">
+<title>OKU_ISLEM-&gt;ISLEM_ONAYLA</title>
+<path fill="none" stroke="black" d="M1443.48,-930.14C1316.98,-916.41 1145.3,-897.77 1041.45,-886.49"/>
+<polygon fill="black" stroke="black" points="1041.88,-883.02 1031.56,-885.42 1041.13,-889.98 1041.88,-883.02"/>
+</g>
+<!-- OKU_DERS -->
+<g id="node5" class="node">
+<title>OKU_DERS</title>
+<polygon fill="yellow" stroke="black" points="1014.19,-668.8 710.53,-668.8 632.42,-632.8 936.07,-632.8 1014.19,-668.8"/>
+<text xml:space="preserve" text-anchor="middle" x="823.3" y="-646.6" font-family="Helvetica,sans-Serif" font-size="14.00">OKU: Eklenecek Ders Kodu</text>
+</g>
+<!-- KONTROL_1_KONTENJAN -->
+<g id="node21" class="node">
+<title>KONTROL_1_KONTENJAN</title>
+<polygon fill="orange" stroke="black" points="811.3,-580 662.23,-538.4 811.3,-496.8 960.38,-538.4 811.3,-580"/>
+<text xml:space="preserve" text-anchor="middle" x="811.3" y="-542.6" font-family="Helvetica,sans-Serif" font-size="14.00">KONTROL 1:</text>
+<text xml:space="preserve" text-anchor="middle" x="811.3" y="-525.8" font-family="Helvetica,sans-Serif" font-size="14.00">Kontenjan Yeterli mi?</text>
+</g>
+<!-- OKU_DERS&#45;&gt;KONTROL_1_KONTENJAN -->
+<g id="edge10" class="edge">
+<title>OKU_DERS-&gt;KONTROL_1_KONTENJAN</title>
+<path fill="none" stroke="black" d="M821.43,-632.55C820.19,-621.15 818.49,-605.55 816.84,-590.38"/>
+<polygon fill="black" stroke="black" points="820.33,-590.01 815.77,-580.45 813.37,-590.77 820.33,-590.01"/>
+</g>
+<!-- OKU_C_DERS -->
+<g id="node6" class="node">
+<title>OKU_C_DERS</title>
+<polygon fill="yellow" stroke="black" points="1382.19,-556.4 1061.03,-556.4 978.42,-520.4 1299.57,-520.4 1382.19,-556.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1180.3" y="-534.2" font-family="Helvetica,sans-Serif" font-size="14.00">OKU: Çıkarılacak Ders Kodu</text>
+</g>
+<!-- DERS_KAYITLI_MI -->
+<g id="node20" class="node">
+<title>DERS_KAYITLI_MI</title>
+<polygon fill="orange" stroke="black" points="1376.3,-420.4 1252.17,-402.4 1376.3,-384.4 1500.43,-402.4 1376.3,-420.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1376.3" y="-398.2" font-family="Helvetica,sans-Serif" font-size="14.00">Ders Kayıtlı mı?</text>
+</g>
+<!-- OKU_C_DERS&#45;&gt;DERS_KAYITLI_MI -->
+<g id="edge23" class="edge">
+<title>OKU_C_DERS-&gt;DERS_KAYITLI_MI</title>
+<path fill="none" stroke="black" d="M1205.53,-520.16C1241.55,-495.52 1307.65,-450.34 1346.19,-423.99"/>
+<polygon fill="black" stroke="black" points="1347.83,-427.1 1354.11,-418.57 1343.88,-421.32 1347.83,-427.1"/>
+</g>
+<!-- GIRIS_HATA -->
+<g id="node7" class="node">
+<title>GIRIS_HATA</title>
+<polygon fill="lightblue" stroke="black" points="1788.76,-1217.2 1663.85,-1217.2 1663.85,-1181.2 1788.76,-1181.2 1788.76,-1217.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1726.3" y="-1195" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Hatalı Giriş</text>
+</g>
+<!-- DERS_EKLE -->
+<g id="node8" class="node">
+<title>DERS_EKLE</title>
+<polygon fill="lightblue" stroke="black" points="1396.84,-36 1191.77,-36 1191.77,0 1396.84,0 1396.84,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="1294.3" y="-13.8" font-family="Helvetica,sans-Serif" font-size="14.00">EKLE ders, Artır toplam_kredi</text>
+</g>
+<!-- DERS_EKLE&#45;&gt;OKU_ISLEM -->
+<g id="edge19" class="edge">
+<title>DERS_EKLE-&gt;OKU_ISLEM</title>
+<path fill="none" stroke="black" d="M1397.3,-23.21C1497.16,-28.21 1636.44,-37.96 1656.3,-54 1683.66,-76.1 1680.3,-94.23 1680.3,-129.4 1680.3,-876.6 1680.3,-876.6 1680.3,-876.6 1680.3,-896.37 1666.4,-912.22 1650.48,-923.88"/>
+<polygon fill="black" stroke="black" points="1648.58,-920.95 1642.22,-929.42 1652.48,-926.76 1648.58,-920.95"/>
+</g>
+<!-- DERS_CIKAR -->
+<g id="node9" class="node">
+<title>DERS_CIKAR</title>
+<polygon fill="lightblue" stroke="black" points="1614.56,-284.4 1404.04,-284.4 1404.04,-248.4 1614.56,-248.4 1614.56,-284.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1509.3" y="-262.2" font-family="Helvetica,sans-Serif" font-size="14.00">ÇIKAR ders, Azalt toplam_kredi</text>
+</g>
+<!-- DERS_CIKAR&#45;&gt;OKU_ISLEM -->
+<g id="edge26" class="edge">
+<title>DERS_CIKAR-&gt;OKU_ISLEM</title>
+<path fill="none" stroke="black" d="M1532.3,-284.56C1560.42,-307.71 1604.3,-351.78 1604.3,-401.4 1604.3,-876.6 1604.3,-876.6 1604.3,-876.6 1604.3,-890.52 1604.3,-905.97 1604.3,-918.9"/>
+<polygon fill="black" stroke="black" points="1600.8,-918.87 1604.3,-928.87 1607.8,-918.87 1600.8,-918.87"/>
+</g>
+<!-- YAZ_OZET -->
+<g id="node10" class="node">
+<title>YAZ_OZET</title>
+<polygon fill="lightblue" stroke="black" points="1576.05,-556.4 1400.55,-556.4 1400.55,-520.4 1576.05,-520.4 1576.05,-556.4"/>
+<text xml:space="preserve" text-anchor="middle" x="1488.3" y="-534.2" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Kayıt Özeti ve Kredi</text>
+</g>
+<!-- YAZ_OZET&#45;&gt;OKU_ISLEM -->
+<g id="edge27" class="edge">
+<title>YAZ_OZET-&gt;OKU_ISLEM</title>
+<path fill="none" stroke="black" d="M1498.81,-556.67C1510.66,-577.83 1528.3,-615.14 1528.3,-649.8 1528.3,-876.6 1528.3,-876.6 1528.3,-876.6 1528.3,-896.37 1542.21,-912.22 1558.13,-923.88"/>
+<polygon fill="black" stroke="black" points="1556.13,-926.76 1566.38,-929.42 1560.03,-920.95 1556.13,-926.76"/>
+</g>
+<!-- KAYIT_KILITLE -->
+<g id="node11" class="node">
+<title>KAYIT_KILITLE</title>
+<polygon fill="lightblue" stroke="black" points="192.61,-284.4 0,-284.4 0,-248.4 192.61,-248.4 192.61,-284.4"/>
+<text xml:space="preserve" text-anchor="middle" x="96.3" y="-262.2" font-family="Helvetica,sans-Serif" font-size="14.00">KAYIT İŞLEMİNİ KİLİTLE</text>
+</g>
+<!-- KAYIT_KILITLE&#45;&gt;BITIR -->
+<g id="edge34" class="edge">
+<title>KAYIT_KILITLE-&gt;BITIR</title>
+<path fill="none" stroke="black" d="M96.3,-248.16C96.3,-225.84 96.3,-186.67 96.3,-159.9"/>
+<polygon fill="black" stroke="black" points="99.8,-160.09 96.3,-150.09 92.8,-160.09 99.8,-160.09"/>
+</g>
+<!-- YAZ_HATA -->
+<g id="node12" class="node">
+<title>YAZ_HATA</title>
+<polygon fill="lightblue" stroke="black" points="1116.1,-36 986.51,-36 986.51,0 1116.1,0 1116.1,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="1051.3" y="-13.8" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Hata Mesajı</text>
+</g>
+<!-- YAZ_HATA&#45;&gt;OKU_ISLEM -->
+<g id="edge20" class="edge">
+<title>YAZ_HATA-&gt;OKU_ISLEM</title>
+<path fill="none" stroke="black" d="M1116.59,-27.6C1137.57,-30.33 1160.91,-33.33 1182.3,-36 1285.81,-48.93 1642.3,-25.09 1642.3,-129.4 1642.3,-876.6 1642.3,-876.6 1642.3,-876.6 1642.3,-892.64 1634.67,-908.57 1626.24,-921.26"/>
+<polygon fill="black" stroke="black" points="1623.64,-918.89 1620.64,-929.05 1629.32,-922.97 1623.64,-918.89"/>
+</g>
+<!-- DANISMAN_BEKLE -->
+<g id="node13" class="node">
+<title>DANISMAN_BEKLE</title>
+<polygon fill="lightblue" stroke="black" points="547.57,-668.8 337.04,-668.8 337.04,-632.8 547.57,-632.8 547.57,-668.8"/>
+<text xml:space="preserve" text-anchor="middle" x="442.3" y="-646.6" font-family="Helvetica,sans-Serif" font-size="14.00">Danışman Onayı Bekleniyor...</text>
+</g>
+<!-- ONAY_ALINDI_MI -->
+<g id="node26" class="node">
+<title>ONAY_ALINDI_MI</title>
+<polygon fill="orange" stroke="black" points="441.3,-556.4 238.21,-538.4 441.3,-520.4 644.39,-538.4 441.3,-556.4"/>
+<text xml:space="preserve" text-anchor="middle" x="441.3" y="-534.2" font-family="Helvetica,sans-Serif" font-size="14.00">Danışman Onayı Alındı mı?</text>
+</g>
+<!-- DANISMAN_BEKLE&#45;&gt;ONAY_ALINDI_MI -->
+<g id="edge30" class="edge">
+<title>DANISMAN_BEKLE-&gt;ONAY_ALINDI_MI</title>
+<path fill="none" stroke="black" d="M448.85,-632.6C450.67,-627.01 452.4,-620.72 453.3,-614.8 455.72,-599.04 453.22,-581.44 449.88,-567.21"/>
+<polygon fill="black" stroke="black" points="453.29,-566.41 447.36,-557.63 446.52,-568.19 453.29,-566.41"/>
+<text xml:space="preserve" text-anchor="middle" x="508.5" y="-602.2" font-family="Times,serif" font-size="14.00">Döngü Başlangıcı</text>
+</g>
+<!-- DANISMAN_ALINDI -->
+<g id="node14" class="node">
+<title>DANISMAN_ALINDI</title>
+<polygon fill="lightblue" stroke="black" points="473.34,-420.4 261.26,-420.4 261.26,-384.4 473.34,-384.4 473.34,-420.4"/>
+<text xml:space="preserve" text-anchor="middle" x="367.3" y="-398.2" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Danışman Onayı Alındı</text>
+</g>
+<!-- DANISMAN_ALINDI&#45;&gt;KAYIT_KILITLE -->
+<g id="edge33" class="edge">
+<title>DANISMAN_ALINDI-&gt;KAYIT_KILITLE</title>
+<path fill="none" stroke="black" d="M332.15,-384.02C283.41,-359.92 195.27,-316.34 141.64,-289.82"/>
+<polygon fill="black" stroke="black" points="143.26,-286.72 132.75,-285.42 140.16,-292.99 143.26,-286.72"/>
+</g>
+<!-- YAZ_GEREKMEZ -->
+<g id="node15" class="node">
+<title>YAZ_GEREKMEZ</title>
+<polygon fill="lightblue" stroke="black" points="2039.84,-1217.2 1806.77,-1217.2 1806.77,-1181.2 2039.84,-1181.2 2039.84,-1217.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1923.3" y="-1195" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Danışman Onayı Gerekmez</text>
+</g>
+<!-- KIMLIK_DOGRULANDI_MI&#45;&gt;OKU_GIRIS -->
+<g id="edge3" class="edge">
+<title>KIMLIK_DOGRULANDI_MI-&gt;OKU_GIRIS</title>
+<path fill="none" stroke="black" d="M1604.3,-1055.81C1604.3,-1067.56 1604.3,-1083.34 1604.3,-1096.88"/>
+<polygon fill="black" stroke="black" points="1600.8,-1096.54 1604.3,-1106.54 1607.8,-1096.54 1600.8,-1096.54"/>
+<text xml:space="preserve" text-anchor="middle" x="1626.47" y="-1077.6" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- KIMLIK_DOGRULANDI_MI&#45;&gt;OKU_ISLEM -->
+<g id="edge4" class="edge">
+<title>KIMLIK_DOGRULANDI_MI-&gt;OKU_ISLEM</title>
+<path fill="none" stroke="black" d="M1604.3,-1019.25C1604.3,-1007.56 1604.3,-991.79 1604.3,-978.22"/>
+<polygon fill="black" stroke="black" points="1607.8,-978.52 1604.3,-968.52 1600.8,-978.52 1607.8,-978.52"/>
+<text xml:space="preserve" text-anchor="middle" x="1622.19" y="-988.8" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- ISLEM_EKLE -->
+<g id="node18" class="node">
+<title>ISLEM_EKLE</title>
+<polygon fill="orange" stroke="black" points="950.3,-781.2 812.51,-763.2 950.3,-745.2 1088.1,-763.2 950.3,-781.2"/>
+<text xml:space="preserve" text-anchor="middle" x="950.3" y="-759" font-family="Helvetica,sans-Serif" font-size="14.00">İşlem EKLE (1) mi?</text>
+</g>
+<!-- ISLEM_ONAYLA&#45;&gt;ISLEM_EKLE -->
+<g id="edge7" class="edge">
+<title>ISLEM_ONAYLA-&gt;ISLEM_EKLE</title>
+<path fill="none" stroke="black" d="M950.3,-857.35C950.3,-840.19 950.3,-813.56 950.3,-793.16"/>
+<polygon fill="black" stroke="black" points="953.8,-793.21 950.3,-783.21 946.8,-793.21 953.8,-793.21"/>
+<text xml:space="preserve" text-anchor="middle" x="972.47" y="-827" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- KONTROL_5_DANISMAN_ONAY -->
+<g id="node25" class="node">
+<title>KONTROL_5_DANISMAN_ONAY</title>
+<polygon fill="orange" stroke="black" points="442.3,-804.8 239.96,-763.2 442.3,-721.6 644.64,-763.2 442.3,-804.8"/>
+<text xml:space="preserve" text-anchor="middle" x="442.3" y="-767.4" font-family="Helvetica,sans-Serif" font-size="14.00">KONTROL 5:</text>
+<text xml:space="preserve" text-anchor="middle" x="442.3" y="-750.6" font-family="Helvetica,sans-Serif" font-size="14.00">GPA &lt; 2.5 (Onay Gerekli) mi?</text>
+</g>
+<!-- ISLEM_ONAYLA&#45;&gt;KONTROL_5_DANISMAN_ONAY -->
+<g id="edge6" class="edge">
+<title>ISLEM_ONAYLA-&gt;KONTROL_5_DANISMAN_ONAY</title>
+<path fill="none" stroke="black" d="M897.38,-863.1C815.65,-845.34 657.03,-810.86 550.37,-787.69"/>
+<polygon fill="black" stroke="black" points="551.24,-784.29 540.73,-785.59 549.76,-791.13 551.24,-784.29"/>
+<text xml:space="preserve" text-anchor="middle" x="803.87" y="-827" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- ISLEM_EKLE&#45;&gt;OKU_DERS -->
+<g id="edge8" class="edge">
+<title>ISLEM_EKLE-&gt;OKU_DERS</title>
+<path fill="none" stroke="black" d="M932.91,-747.08C912.1,-728.99 876.95,-698.43 852.07,-676.81"/>
+<polygon fill="black" stroke="black" points="854.4,-674.19 844.56,-670.27 849.81,-679.48 854.4,-674.19"/>
+<text xml:space="preserve" text-anchor="middle" x="897.08" y="-691" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- ISLEM_CIKAR -->
+<g id="node19" class="node">
+<title>ISLEM_CIKAR</title>
+<polygon fill="orange" stroke="black" points="1180.3,-668.8 1033.41,-650.8 1180.3,-632.8 1327.19,-650.8 1180.3,-668.8"/>
+<text xml:space="preserve" text-anchor="middle" x="1180.3" y="-646.6" font-family="Helvetica,sans-Serif" font-size="14.00">İşlem ÇIKAR (2) mı?</text>
+</g>
+<!-- ISLEM_EKLE&#45;&gt;ISLEM_CIKAR -->
+<g id="edge9" class="edge">
+<title>ISLEM_EKLE-&gt;ISLEM_CIKAR</title>
+<path fill="none" stroke="black" d="M978.97,-748.44C1019.86,-728.81 1095.06,-692.72 1141.08,-670.63"/>
+<polygon fill="black" stroke="black" points="1142.41,-673.87 1149.91,-666.39 1139.38,-667.56 1142.41,-673.87"/>
+<text xml:space="preserve" text-anchor="middle" x="1128.07" y="-691" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- ISLEM_CIKAR&#45;&gt;OKU_C_DERS -->
+<g id="edge21" class="edge">
+<title>ISLEM_CIKAR-&gt;OKU_C_DERS</title>
+<path fill="none" stroke="black" d="M1180.3,-632.55C1180.3,-615.39 1180.3,-588.76 1180.3,-568.36"/>
+<polygon fill="black" stroke="black" points="1183.8,-568.41 1180.3,-558.41 1176.8,-568.41 1183.8,-568.41"/>
+<text xml:space="preserve" text-anchor="middle" x="1220.54" y="-602.2" font-family="Times,serif" font-size="14.00">EVET (Çıkar)</text>
+</g>
+<!-- ISLEM_CIKAR&#45;&gt;YAZ_OZET -->
+<g id="edge22" class="edge">
+<title>ISLEM_CIKAR-&gt;YAZ_OZET</title>
+<path fill="none" stroke="black" d="M1221.08,-637.34C1263.81,-624.03 1332.76,-601.9 1391.3,-580 1406.58,-574.29 1423,-567.62 1437.91,-561.36"/>
+<polygon fill="black" stroke="black" points="1439.23,-564.6 1447.07,-557.48 1436.5,-558.15 1439.23,-564.6"/>
+<text xml:space="preserve" text-anchor="middle" x="1397.78" y="-602.2" font-family="Times,serif" font-size="14.00">HAYIR (Özet/Diğer)</text>
+</g>
+<!-- DERS_KAYITLI_MI&#45;&gt;DERS_CIKAR -->
+<g id="edge24" class="edge">
+<title>DERS_KAYITLI_MI-&gt;DERS_CIKAR</title>
+<path fill="none" stroke="black" d="M1391.3,-386.29C1413.83,-363.59 1456.7,-320.4 1484.09,-292.8"/>
+<polygon fill="black" stroke="black" points="1486.43,-295.41 1490.99,-285.85 1481.46,-290.48 1486.43,-295.41"/>
+<text xml:space="preserve" text-anchor="middle" x="1468.65" y="-330.2" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- DERS_KAYITLI_MI&#45;&gt;YAZ_HATA -->
+<g id="edge25" class="edge">
+<title>DERS_KAYITLI_MI-&gt;YAZ_HATA</title>
+<path fill="none" stroke="black" d="M1377.36,-384.13C1380.61,-326.02 1388.42,-138.44 1357.3,-88.8 1340.52,-62.03 1325.23,-64.15 1295.3,-54 1287.3,-51.29 1196.28,-38.6 1127.74,-29.27"/>
+<polygon fill="black" stroke="black" points="1128.39,-25.83 1118.01,-27.95 1127.45,-32.77 1128.39,-25.83"/>
+<text xml:space="preserve" text-anchor="middle" x="1401.31" y="-194.2" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- KONTROL_1_KONTENJAN&#45;&gt;YAZ_HATA -->
+<g id="edge11" class="edge">
+<title>KONTROL_1_KONTENJAN-&gt;YAZ_HATA</title>
+<path fill="none" stroke="black" d="M730.18,-519.04C672.54,-500.63 605.3,-465.8 605.3,-403.4 605.3,-403.4 605.3,-403.4 605.3,-129.4 605.3,-54.1 847.89,-29.82 975.24,-22.26"/>
+<polygon fill="black" stroke="black" points="975.16,-25.77 984.94,-21.71 974.76,-18.78 975.16,-25.77"/>
+<text xml:space="preserve" text-anchor="middle" x="663.04" y="-262.2" font-family="Times,serif" font-size="14.00">HAYIR (Kontenjan)</text>
+</g>
+<!-- KONTROL_2_ON_KOSUL -->
+<g id="node22" class="node">
+<title>KONTROL_2_ON_KOSUL</title>
+<polygon fill="orange" stroke="black" points="811.3,-444 634.22,-402.4 811.3,-360.8 988.39,-402.4 811.3,-444"/>
+<text xml:space="preserve" text-anchor="middle" x="811.3" y="-406.6" font-family="Helvetica,sans-Serif" font-size="14.00">KONTROL 2:</text>
+<text xml:space="preserve" text-anchor="middle" x="811.3" y="-389.8" font-family="Helvetica,sans-Serif" font-size="14.00">Ön Koşul Sağlanıyor mu?</text>
+</g>
+<!-- KONTROL_1_KONTENJAN&#45;&gt;KONTROL_2_ON_KOSUL -->
+<g id="edge12" class="edge">
+<title>KONTROL_1_KONTENJAN-&gt;KONTROL_2_ON_KOSUL</title>
+<path fill="none" stroke="black" d="M811.3,-496.47C811.3,-483.48 811.3,-468.94 811.3,-455.29"/>
+<polygon fill="black" stroke="black" points="814.8,-455.6 811.3,-445.6 807.8,-455.6 814.8,-455.6"/>
+<text xml:space="preserve" text-anchor="middle" x="829.19" y="-466.2" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- KONTROL_2_ON_KOSUL&#45;&gt;YAZ_HATA -->
+<g id="edge13" class="edge">
+<title>KONTROL_2_ON_KOSUL-&gt;YAZ_HATA</title>
+<path fill="none" stroke="black" d="M789.83,-365.47C780.98,-348.64 771.77,-327.94 767.3,-308 755.82,-256.66 752.19,-236.58 776.65,-190 813.54,-119.75 824.3,-94.89 892.3,-54 917.11,-39.09 947.5,-30.5 975.05,-25.57"/>
+<polygon fill="black" stroke="black" points="975.46,-29.05 984.76,-23.98 974.33,-22.15 975.46,-29.05"/>
+<text xml:space="preserve" text-anchor="middle" x="831.48" y="-194.2" font-family="Times,serif" font-size="14.00">HAYIR (Ön Koşul)</text>
+</g>
+<!-- KONTROL_3_CAKISMASI -->
+<g id="node23" class="node">
+<title>KONTROL_3_CAKISMASI</title>
+<polygon fill="orange" stroke="black" points="971.3,-308 776.35,-266.4 971.3,-224.8 1166.25,-266.4 971.3,-308"/>
+<text xml:space="preserve" text-anchor="middle" x="971.3" y="-270.6" font-family="Helvetica,sans-Serif" font-size="14.00">KONTROL 3:</text>
+<text xml:space="preserve" text-anchor="middle" x="971.3" y="-253.8" font-family="Helvetica,sans-Serif" font-size="14.00">Zaman Çakışması Yok mu?</text>
+</g>
+<!-- KONTROL_2_ON_KOSUL&#45;&gt;KONTROL_3_CAKISMASI -->
+<g id="edge14" class="edge">
+<title>KONTROL_2_ON_KOSUL-&gt;KONTROL_3_CAKISMASI</title>
+<path fill="none" stroke="black" d="M849.63,-369.3C871.84,-350.7 900.01,-327.11 923.64,-307.31"/>
+<polygon fill="black" stroke="black" points="925.88,-310.01 931.3,-300.9 921.39,-304.64 925.88,-310.01"/>
+<text xml:space="preserve" text-anchor="middle" x="918.77" y="-330.2" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- KONTROL_3_CAKISMASI&#45;&gt;YAZ_HATA -->
+<g id="edge15" class="edge">
+<title>KONTROL_3_CAKISMASI-&gt;YAZ_HATA</title>
+<path fill="none" stroke="black" d="M928.54,-233.93C910.16,-217.73 890.66,-196.27 880.83,-172 866.95,-137.73 860.22,-119.5 880.83,-88.8 902.07,-57.15 940.48,-39.85 975.46,-30.38"/>
+<polygon fill="black" stroke="black" points="975.88,-33.89 984.72,-28.06 974.17,-27.1 975.88,-33.89"/>
+<text xml:space="preserve" text-anchor="middle" x="935.07" y="-126.2" font-family="Times,serif" font-size="14.00">HAYIR (Çakışma)</text>
+</g>
+<!-- KONTROL_4_KREDI_LIMITI -->
+<g id="node24" class="node">
+<title>KONTROL_4_KREDI_LIMITI</title>
+<polygon fill="orange" stroke="black" points="1173.3,-172 997.81,-130.4 1173.3,-88.8 1348.79,-130.4 1173.3,-172"/>
+<text xml:space="preserve" text-anchor="middle" x="1173.3" y="-134.6" font-family="Helvetica,sans-Serif" font-size="14.00">KONTROL 4:</text>
+<text xml:space="preserve" text-anchor="middle" x="1173.3" y="-117.8" font-family="Helvetica,sans-Serif" font-size="14.00">Kredi Limiti Aşılıyor mu?</text>
+</g>
+<!-- KONTROL_3_CAKISMASI&#45;&gt;KONTROL_4_KREDI_LIMITI -->
+<g id="edge16" class="edge">
+<title>KONTROL_3_CAKISMASI-&gt;KONTROL_4_KREDI_LIMITI</title>
+<path fill="none" stroke="black" d="M1018.15,-234.32C1048.04,-214.49 1086.92,-188.7 1118.28,-167.9"/>
+<polygon fill="black" stroke="black" points="1120.09,-170.9 1126.49,-162.46 1116.22,-165.07 1120.09,-170.9"/>
+<text xml:space="preserve" text-anchor="middle" x="1102.28" y="-194.2" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- KONTROL_4_KREDI_LIMITI&#45;&gt;DERS_EKLE -->
+<g id="edge18" class="edge">
+<title>KONTROL_4_KREDI_LIMITI-&gt;DERS_EKLE</title>
+<path fill="none" stroke="black" d="M1208.95,-96.87C1227.47,-79.97 1249.76,-59.64 1266.91,-43.99"/>
+<polygon fill="black" stroke="black" points="1269.22,-46.63 1274.25,-37.3 1264.5,-41.46 1269.22,-46.63"/>
+<text xml:space="preserve" text-anchor="middle" x="1273.05" y="-58.2" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- KONTROL_4_KREDI_LIMITI&#45;&gt;YAZ_HATA -->
+<g id="edge17" class="edge">
+<title>KONTROL_4_KREDI_LIMITI-&gt;YAZ_HATA</title>
+<path fill="none" stroke="black" d="M1137.36,-96.87C1118.68,-79.97 1096.22,-59.64 1078.92,-43.99"/>
+<polygon fill="black" stroke="black" points="1081.28,-41.41 1071.52,-37.3 1076.59,-46.6 1081.28,-41.41"/>
+<text xml:space="preserve" text-anchor="middle" x="1149.13" y="-58.2" font-family="Times,serif" font-size="14.00">HAYIR (Limit)</text>
+</g>
+<!-- KONTROL_5_DANISMAN_ONAY&#45;&gt;KAYIT_KILITLE -->
+<g id="edge29" class="edge">
+<title>KONTROL_5_DANISMAN_ONAY-&gt;KAYIT_KILITLE</title>
+<path fill="none" stroke="black" d="M311.24,-748.04C204.47,-732.75 71.3,-703.33 71.3,-651.8 71.3,-651.8 71.3,-651.8 71.3,-401.4 71.3,-364.29 80.68,-322.37 87.95,-295.46"/>
+<polygon fill="black" stroke="black" points="91.27,-296.59 90.59,-286.01 84.53,-294.7 91.27,-296.59"/>
+<text xml:space="preserve" text-anchor="middle" x="145.55" y="-534.2" font-family="Times,serif" font-size="14.00">HAYIR (Onay Gerekmez)</text>
+</g>
+<!-- KONTROL_5_DANISMAN_ONAY&#45;&gt;DANISMAN_BEKLE -->
+<g id="edge28" class="edge">
+<title>KONTROL_5_DANISMAN_ONAY-&gt;DANISMAN_BEKLE</title>
+<path fill="none" stroke="black" d="M442.3,-721.09C442.3,-707.67 442.3,-693.05 442.3,-680.71"/>
+<polygon fill="black" stroke="black" points="445.8,-680.78 442.3,-670.78 438.8,-680.78 445.8,-680.78"/>
+<text xml:space="preserve" text-anchor="middle" x="504.5" y="-691" font-family="Times,serif" font-size="14.00">EVET (Onay Gerekli)</text>
+</g>
+<!-- ONAY_ALINDI_MI&#45;&gt;DANISMAN_BEKLE -->
+<g id="edge31" class="edge">
+<title>ONAY_ALINDI_MI-&gt;DANISMAN_BEKLE</title>
+<path fill="none" stroke="black" d="M424.88,-555.41C411.42,-570.55 395.96,-594 404.97,-614.8 406.37,-618.04 408.24,-621.11 410.39,-624"/>
+<polygon fill="black" stroke="black" points="407.74,-626.28 417.01,-631.41 412.96,-621.62 407.74,-626.28"/>
+<text xml:space="preserve" text-anchor="middle" x="427.14" y="-602.2" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- ONAY_ALINDI_MI&#45;&gt;DANISMAN_ALINDI -->
+<g id="edge32" class="edge">
+<title>ONAY_ALINDI_MI-&gt;DANISMAN_ALINDI</title>
+<path fill="none" stroke="black" d="M432.23,-520.97C419.83,-498.51 397.42,-457.93 382.45,-430.82"/>
+<polygon fill="black" stroke="black" points="385.55,-429.2 377.65,-422.14 379.42,-432.59 385.55,-429.2"/>
+<text xml:space="preserve" text-anchor="middle" x="426.62" y="-466.2" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+</g>
+</svg>
