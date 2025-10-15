@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996pt" height="1463pt" viewBox="0.00 0.00 996.00 1463.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1459.4)">
+<title>IOT_Guvenlik_Sistemi</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1459.4 991.96,-1459.4 991.96,4 -4,4"/>
+<!-- BASLA -->
+<g id="node1" class="node">
+<title>BASLA</title>
+<ellipse fill="lightgreen" stroke="black" cx="290" cy="-1413.8" rx="41.1" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-1409.6" font-family="Helvetica,sans-Serif" font-size="14.00">BAŞLA</text>
+</g>
+<!-- INIT -->
+<g id="node8" class="node">
+<title>INIT</title>
+<polygon fill="lightblue" stroke="black" points="387.27,-1335.2 192.73,-1335.2 192.73,-1299.2 387.27,-1299.2 387.27,-1335.2"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-1313" font-family="Helvetica,sans-Serif" font-size="14.00">ALARM_DURUMU = PASİF</text>
+</g>
+<!-- BASLA&#45;&gt;INIT -->
+<g id="edge1" class="edge">
+<title>BASLA-&gt;INIT</title>
+<path fill="none" stroke="black" d="M290,-1395.45C290,-1381.85 290,-1362.63 290,-1346.77"/>
+<polygon fill="black" stroke="black" points="293.5,-1346.95 290,-1336.95 286.5,-1346.95 293.5,-1346.95"/>
+</g>
+<!-- BITIR -->
+<g id="node2" class="node">
+<title>BITIR</title>
+<ellipse fill="lightgreen" stroke="black" cx="476" cy="-1413.8" rx="126.42" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="476" y="-1409.6" font-family="Helvetica,sans-Serif" font-size="14.00">BİTİR (Sistem Kapanışı)</text>
+</g>
+<!-- OKU_SENSOR -->
+<g id="node3" class="node">
+<title>OKU_SENSOR</title>
+<polygon fill="yellow" stroke="black" points="546.2,-1157.6 138.64,-1157.6 33.8,-1121.6 441.36,-1121.6 546.2,-1157.6"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-1135.4" font-family="Helvetica,sans-Serif" font-size="14.00">OKU: Hareket ve Kapı/Pencere Verisi</text>
+</g>
+<!-- TEHDIT_ALGILANDI -->
+<g id="node14" class="node">
+<title>TEHDIT_ALGILANDI</title>
+<polygon fill="orange" stroke="black" points="290,-1049.6 141.55,-1031.6 290,-1013.6 438.45,-1031.6 290,-1049.6"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-1027.4" font-family="Helvetica,sans-Serif" font-size="14.00">Tehdit Algılandı mı?</text>
+</g>
+<!-- OKU_SENSOR&#45;&gt;TEHDIT_ALGILANDI -->
+<g id="edge6" class="edge">
+<title>OKU_SENSOR-&gt;TEHDIT_ALGILANDI</title>
+<path fill="none" stroke="black" d="M290,-1121.57C290,-1105.36 290,-1080.66 290,-1061.39"/>
+<polygon fill="black" stroke="black" points="293.5,-1061.45 290,-1051.45 286.5,-1061.45 293.5,-1061.45"/>
+</g>
+<!-- YAZ_ALARM_GEZ -->
+<g id="node4" class="node">
+<title>YAZ_ALARM_GEZ</title>
+<polygon fill="yellow" stroke="black" points="937.53,-1455.4 685.34,-1455.4 620.47,-1372.2 872.66,-1372.2 937.53,-1455.4"/>
+<text xml:space="preserve" text-anchor="middle" x="779" y="-1418" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Gecikmeli Alarm</text>
+<text xml:space="preserve" text-anchor="middle" x="779" y="-1401.2" font-family="Helvetica,sans-Serif" font-size="14.00">BEKLE 15 sn</text>
+</g>
+<!-- OKU_KOMUT -->
+<g id="node5" class="node">
+<title>OKU_KOMUT</title>
+<polygon fill="yellow" stroke="black" points="754.74,-438.2 362.23,-438.2 261.26,-402.2 653.77,-402.2 754.74,-438.2"/>
+<text xml:space="preserve" text-anchor="middle" x="508" y="-416" font-family="Helvetica,sans-Serif" font-size="14.00">OKU: Kullanıcı Komutu (Uygulama)</text>
+</g>
+<!-- KOMUT_SIFIRLA -->
+<g id="node18" class="node">
+<title>KOMUT_SIFIRLA</title>
+<polygon fill="orange" stroke="black" points="331,-365.2 190.17,-347.2 331,-329.2 471.83,-347.2 331,-365.2"/>
+<text xml:space="preserve" text-anchor="middle" x="331" y="-343" font-family="Helvetica,sans-Serif" font-size="14.00">Komut SIFIRLA mı?</text>
+</g>
+<!-- OKU_KOMUT&#45;&gt;KOMUT_SIFIRLA -->
+<g id="edge17" class="edge">
+<title>OKU_KOMUT-&gt;KOMUT_SIFIRLA</title>
+<path fill="none" stroke="black" d="M464.7,-401.83C437.23,-390.81 401.83,-376.61 374.35,-365.59"/>
+<polygon fill="black" stroke="black" points="375.85,-362.42 365.27,-361.95 373.25,-368.92 375.85,-362.42"/>
+</g>
+<!-- BILDIRIM_GONDER -->
+<g id="node6" class="node">
+<title>BILDIRIM_GONDER</title>
+<polygon fill="yellow" stroke="black" points="755.44,-574.2 323.64,-574.2 212.56,-491 644.36,-491 755.44,-574.2"/>
+<text xml:space="preserve" text-anchor="middle" x="484" y="-536.8" font-family="Helvetica,sans-Serif" font-size="14.00">GÖNDER BİLDİRİM (SMS/App/Email)</text>
+<text xml:space="preserve" text-anchor="middle" x="484" y="-520" font-family="Helvetica,sans-Serif" font-size="14.00">ÇALDIR SİREN</text>
+</g>
+<!-- BILDIRIM_GONDER&#45;&gt;OKU_KOMUT -->
+<g id="edge16" class="edge">
+<title>BILDIRIM_GONDER-&gt;OKU_KOMUT</title>
+<path fill="none" stroke="black" d="M492.87,-490.8C495.84,-477.12 499.09,-462.16 501.82,-449.64"/>
+<polygon fill="black" stroke="black" points="505.22,-450.48 503.92,-439.97 498.38,-449 505.22,-450.48"/>
+</g>
+<!-- YAZ_DE_PASIF -->
+<g id="node7" class="node">
+<title>YAZ_DE_PASIF</title>
+<polygon fill="yellow" stroke="black" points="987.96,-1103.6 579.19,-1103.6 474.04,-1067.6 882.81,-1067.6 987.96,-1103.6"/>
+<text xml:space="preserve" text-anchor="middle" x="731" y="-1081.4" font-family="Helvetica,sans-Serif" font-size="14.00">YAZ: Sistem Devre Dışı / Beklemede</text>
+</g>
+<!-- BEKLE_SENSOR -->
+<g id="node12" class="node">
+<title>BEKLE_SENSOR</title>
+<polygon fill="lightblue" stroke="black" points="167.41,-36 66.59,-36 66.59,0 167.41,0 167.41,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="117" y="-13.8" font-family="Helvetica,sans-Serif" font-size="14.00">BEKLE (1 sn)</text>
+</g>
+<!-- YAZ_DE_PASIF&#45;&gt;BEKLE_SENSOR -->
+<g id="edge5" class="edge">
+<title>YAZ_DE_PASIF-&gt;BEKLE_SENSOR</title>
+<path fill="none" stroke="black" d="M747.17,-1067.28C762.43,-1049.05 783,-1018.82 783,-988.2 783,-988.2 783,-988.2 783,-92.8 783,-32.41 344.85,-21.43 179.32,-19.44"/>
+<polygon fill="black" stroke="black" points="179.43,-15.94 169.39,-19.33 179.35,-22.94 179.43,-15.94"/>
+</g>
+<!-- SISTEM_AKTIF -->
+<g id="node13" class="node">
+<title>SISTEM_AKTIF</title>
+<polygon fill="orange" stroke="black" points="290,-1246.4 160.57,-1228.4 290,-1210.4 419.43,-1228.4 290,-1246.4"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-1224.2" font-family="Helvetica,sans-Serif" font-size="14.00">Sistem AKTİF mi?</text>
+</g>
+<!-- INIT&#45;&gt;SISTEM_AKTIF -->
+<g id="edge2" class="edge">
+<title>INIT-&gt;SISTEM_AKTIF</title>
+<path fill="none" stroke="black" d="M290,-1299.05C290,-1287.36 290,-1271.59 290,-1258.02"/>
+<polygon fill="black" stroke="black" points="293.5,-1258.32 290,-1248.32 286.5,-1258.32 293.5,-1258.32"/>
+<text xml:space="preserve" text-anchor="middle" x="375.16" y="-1268.6" font-family="Times,serif" font-size="14.00">SÜREKLİ Döngü Başlangıcı</text>
+</g>
+<!-- SIFIRLA -->
+<g id="node9" class="node">
+<title>SIFIRLA</title>
+<polygon fill="lightblue" stroke="black" points="277.27,-114.6 82.73,-114.6 82.73,-73 277.27,-73 277.27,-114.6"/>
+<text xml:space="preserve" text-anchor="middle" x="180" y="-98" font-family="Helvetica,sans-Serif" font-size="14.00">SİSTEMİ SIFIRLA</text>
+<text xml:space="preserve" text-anchor="middle" x="180" y="-81.2" font-family="Helvetica,sans-Serif" font-size="14.00">ALARM_DURUMU = PASİF</text>
+</g>
+<!-- SIFIRLA&#45;&gt;BEKLE_SENSOR -->
+<g id="edge12" class="edge">
+<title>SIFIRLA-&gt;BEKLE_SENSOR</title>
+<path fill="none" stroke="black" d="M162.78,-72.63C155.46,-64.06 146.83,-53.95 139.05,-44.83"/>
+<polygon fill="black" stroke="black" points="141.77,-42.62 132.61,-37.29 136.45,-47.17 141.77,-42.62"/>
+</g>
+<!-- KAMERA_AKTIF -->
+<g id="node10" class="node">
+<title>KAMERA_AKTIF</title>
+<polygon fill="lightblue" stroke="black" points="451.13,-736 260.87,-736 260.87,-700 451.13,-700 451.13,-736"/>
+<text xml:space="preserve" text-anchor="middle" x="356" y="-713.8" font-family="Helvetica,sans-Serif" font-size="14.00">AKTİF ET KAMERA KAYDI</text>
+</g>
+<!-- ALARM_SEVIYESI -->
+<g id="node17" class="node">
+<title>ALARM_SEVIYESI</title>
+<polygon fill="orange" stroke="black" points="484,-663 283.97,-645 484,-627 684.03,-645 484,-663"/>
+<text xml:space="preserve" text-anchor="middle" x="484" y="-640.8" font-family="Helvetica,sans-Serif" font-size="14.00">KOŞUL: Alarm Seviyesi Belirle</text>
+</g>
+<!-- KAMERA_AKTIF&#45;&gt;ALARM_SEVIYESI -->
+<g id="edge14" class="edge">
+<title>KAMERA_AKTIF-&gt;ALARM_SEVIYESI</title>
+<path fill="none" stroke="black" d="M387.31,-699.63C405.3,-689.66 427.99,-677.07 446.87,-666.6"/>
+<polygon fill="black" stroke="black" points="448.54,-669.67 455.59,-661.76 445.15,-663.55 448.54,-669.67"/>
+</g>
+<!-- ACIL_DURUM -->
+<g id="node11" class="node">
+<title>ACIL_DURUM</title>
+<polygon fill="lightblue" stroke="black" points="366.9,-187.6 273.1,-187.6 273.1,-151.6 366.9,-151.6 366.9,-187.6"/>
+<text xml:space="preserve" text-anchor="middle" x="320" y="-165.4" font-family="Helvetica,sans-Serif" font-size="14.00">ARA POLİS</text>
+</g>
+<!-- ACIL_DURUM&#45;&gt;SIFIRLA -->
+<g id="edge21" class="edge">
+<title>ACIL_DURUM-&gt;SIFIRLA</title>
+<path fill="none" stroke="black" d="M286.82,-151.11C269.41,-141.93 247.76,-130.52 228.5,-120.37"/>
+<polygon fill="black" stroke="black" points="230.21,-117.31 219.73,-115.74 226.94,-123.5 230.21,-117.31"/>
+</g>
+<!-- BEKLE_SENSOR&#45;&gt;SISTEM_AKTIF -->
+<g id="edge23" class="edge">
+<title>BEKLE_SENSOR-&gt;SISTEM_AKTIF</title>
+<path fill="none" stroke="black" d="M66.36,-30.13C34.74,-40.39 0,-59.3 0,-92.8 0,-1140.6 0,-1140.6 0,-1140.6 0,-1183.85 119.9,-1207.37 205.51,-1218.65"/>
+<polygon fill="black" stroke="black" points="204.96,-1222.11 215.32,-1219.9 205.84,-1215.16 204.96,-1222.11"/>
+<text xml:space="preserve" text-anchor="middle" x="20.22" y="-596.4" font-family="Times,serif" font-size="14.00">Sürekli</text>
+</g>
+<!-- SISTEM_AKTIF&#45;&gt;OKU_SENSOR -->
+<g id="edge3" class="edge">
+<title>SISTEM_AKTIF-&gt;OKU_SENSOR</title>
+<path fill="none" stroke="black" d="M290,-1210.25C290,-1198.56 290,-1182.79 290,-1169.22"/>
+<polygon fill="black" stroke="black" points="293.5,-1169.52 290,-1159.52 286.5,-1169.52 293.5,-1169.52"/>
+<text xml:space="preserve" text-anchor="middle" x="307.88" y="-1179.8" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- SISTEM_AKTIF&#45;&gt;YAZ_DE_PASIF -->
+<g id="edge4" class="edge">
+<title>SISTEM_AKTIF-&gt;YAZ_DE_PASIF</title>
+<path fill="none" stroke="black" d="M337.92,-1216.7C391.41,-1204.31 480.27,-1182.41 555,-1157.6 598.5,-1143.16 646.69,-1123.45 681.64,-1108.46"/>
+<polygon fill="black" stroke="black" points="682.85,-1111.75 690.64,-1104.57 680.08,-1105.32 682.85,-1111.75"/>
+<text xml:space="preserve" text-anchor="middle" x="515.66" y="-1179.8" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- TEHDIT_ALGILANDI&#45;&gt;BEKLE_SENSOR -->
+<g id="edge8" class="edge">
+<title>TEHDIT_ALGILANDI-&gt;BEKLE_SENSOR</title>
+<path fill="none" stroke="black" d="M229.18,-1020.49C159.55,-1007.15 55,-980.93 55,-943.8 55,-943.8 55,-943.8 55,-92.8 55,-73.4 67.72,-56.43 81.63,-43.68"/>
+<polygon fill="black" stroke="black" points="83.82,-46.41 89.19,-37.27 79.3,-41.07 83.82,-46.41"/>
+<text xml:space="preserve" text-anchor="middle" x="77.17" y="-460.4" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- ALARM_DURUM_PASIF -->
+<g id="node15" class="node">
+<title>ALARM_DURUM_PASIF</title>
+<polygon fill="orange" stroke="black" points="296,-960.8 92.2,-942.8 296,-924.8 499.8,-942.8 296,-960.8"/>
+<text xml:space="preserve" text-anchor="middle" x="296" y="-938.6" font-family="Helvetica,sans-Serif" font-size="14.00">ALARM_DURUMU PASİF mi?</text>
+</g>
+<!-- TEHDIT_ALGILANDI&#45;&gt;ALARM_DURUM_PASIF -->
+<g id="edge7" class="edge">
+<title>TEHDIT_ALGILANDI-&gt;ALARM_DURUM_PASIF</title>
+<path fill="none" stroke="black" d="M291.19,-1013.45C292,-1001.68 293.1,-985.79 294.04,-972.15"/>
+<polygon fill="black" stroke="black" points="297.51,-972.64 294.71,-962.42 290.53,-972.16 297.51,-972.64"/>
+<text xml:space="preserve" text-anchor="middle" x="311.42" y="-983" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- YANLIS_ALARM -->
+<g id="node16" class="node">
+<title>YANLIS_ALARM</title>
+<polygon fill="orange" stroke="black" points="296,-872 82.75,-830.4 296,-788.8 509.25,-830.4 296,-872"/>
+<text xml:space="preserve" text-anchor="middle" x="296" y="-834.6" font-family="Helvetica,sans-Serif" font-size="14.00">Yanlış Alarm Kontrolü</text>
+<text xml:space="preserve" text-anchor="middle" x="296" y="-817.8" font-family="Helvetica,sans-Serif" font-size="14.00">(Ev Sahibi Evde + Şifre Doğru)?</text>
+</g>
+<!-- ALARM_DURUM_PASIF&#45;&gt;YANLIS_ALARM -->
+<g id="edge9" class="edge">
+<title>ALARM_DURUM_PASIF-&gt;YANLIS_ALARM</title>
+<path fill="none" stroke="black" d="M296,-924.55C296,-913.43 296,-898.34 296,-883.54"/>
+<polygon fill="black" stroke="black" points="299.5,-883.87 296,-873.87 292.5,-883.87 299.5,-883.87"/>
+<text xml:space="preserve" text-anchor="middle" x="359.37" y="-894.2" font-family="Times,serif" font-size="14.00">EVET (İlk Tetikleme)</text>
+</g>
+<!-- ALARM_DURUM_PASIF&#45;&gt;ALARM_SEVIYESI -->
+<g id="edge10" class="edge">
+<title>ALARM_DURUM_PASIF-&gt;ALARM_SEVIYESI</title>
+<path fill="none" stroke="black" d="M404.52,-933.93C446.66,-925.02 491.16,-907.16 518,-872 563.36,-812.58 523.54,-718.22 499.35,-672.53"/>
+<polygon fill="black" stroke="black" points="502.47,-670.95 494.61,-663.85 496.33,-674.3 502.47,-670.95"/>
+<text xml:space="preserve" text-anchor="middle" x="615.8" y="-758.2" font-family="Times,serif" font-size="14.00">HAYIR (Alarm Zaten Aktif)</text>
+</g>
+<!-- YANLIS_ALARM&#45;&gt;SIFIRLA -->
+<g id="edge11" class="edge">
+<title>YANLIS_ALARM-&gt;SIFIRLA</title>
+<path fill="none" stroke="black" d="M198.61,-807.38C155.33,-791.27 114,-764.09 114,-719 114,-719 114,-719 114,-168.6 114,-150.24 125.49,-134.35 138.89,-122.07"/>
+<polygon fill="black" stroke="black" points="140.84,-125 146.23,-115.87 136.33,-119.65 140.84,-125"/>
+<text xml:space="preserve" text-anchor="middle" x="178.53" y="-416" font-family="Times,serif" font-size="14.00">EVET (Yanlış Alarm)</text>
+</g>
+<!-- YANLIS_ALARM&#45;&gt;KAMERA_AKTIF -->
+<g id="edge13" class="edge">
+<title>YANLIS_ALARM-&gt;KAMERA_AKTIF</title>
+<path fill="none" stroke="black" d="M280.8,-791.27C278.19,-778.64 278.18,-765.01 285.03,-754 287.56,-749.93 290.72,-746.32 294.29,-743.12"/>
+<polygon fill="black" stroke="black" points="296.16,-746.09 302.04,-737.28 291.95,-740.5 296.16,-746.09"/>
+<text xml:space="preserve" text-anchor="middle" x="406.52" y="-758.2" font-family="Times,serif" font-size="14.00">HAYIR (Gerçek Tehdit veya Şifre Yanlış)</text>
+</g>
+<!-- ALARM_SEVIYESI&#45;&gt;BILDIRIM_GONDER -->
+<g id="edge15" class="edge">
+<title>ALARM_SEVIYESI-&gt;BILDIRIM_GONDER</title>
+<path fill="none" stroke="black" d="M484,-626.75C484,-615.63 484,-600.54 484,-585.74"/>
+<polygon fill="black" stroke="black" points="487.5,-586.07 484,-576.07 480.5,-586.07 487.5,-586.07"/>
+</g>
+<!-- KOMUT_SIFIRLA&#45;&gt;SIFIRLA -->
+<g id="edge18" class="edge">
+<title>KOMUT_SIFIRLA-&gt;SIFIRLA</title>
+<path fill="none" stroke="black" d="M286.13,-334.5C256.36,-324.27 219.18,-306.25 199,-276.4 168.5,-231.27 170.38,-164.92 174.92,-126.16"/>
+<polygon fill="black" stroke="black" points="178.38,-126.71 176.21,-116.34 171.44,-125.79 178.38,-126.71"/>
+<text xml:space="preserve" text-anchor="middle" x="194.93" y="-209.8" font-family="Times,serif" font-size="14.00">EVET</text>
+</g>
+<!-- KOMUT_ACIL -->
+<g id="node19" class="node">
+<title>KOMUT_ACIL</title>
+<polygon fill="orange" stroke="black" points="386,-276.4 207.99,-258.4 386,-240.4 564.01,-258.4 386,-276.4"/>
+<text xml:space="preserve" text-anchor="middle" x="386" y="-254.2" font-family="Helvetica,sans-Serif" font-size="14.00">Komut ACİL DURUM mu?</text>
+</g>
+<!-- KOMUT_SIFIRLA&#45;&gt;KOMUT_ACIL -->
+<g id="edge19" class="edge">
+<title>KOMUT_SIFIRLA-&gt;KOMUT_ACIL</title>
+<path fill="none" stroke="black" d="M341.09,-330.28C349.05,-317.71 360.32,-299.93 369.58,-285.31"/>
+<polygon fill="black" stroke="black" points="372.4,-287.41 374.79,-277.09 366.48,-283.66 372.4,-287.41"/>
+<text xml:space="preserve" text-anchor="middle" x="385.59" y="-298.6" font-family="Times,serif" font-size="14.00">HAYIR</text>
+</g>
+<!-- KOMUT_ACIL&#45;&gt;OKU_KOMUT -->
+<g id="edge22" class="edge">
+<title>KOMUT_ACIL-&gt;OKU_KOMUT</title>
+<path fill="none" stroke="black" d="M414.89,-273.96C436.08,-286.04 464.01,-305.12 481,-329.2 493.86,-347.44 500.69,-371.89 504.26,-390.7"/>
+<polygon fill="black" stroke="black" points="500.77,-391.08 505.87,-400.36 507.68,-389.92 500.77,-391.08"/>
+<text xml:space="preserve" text-anchor="middle" x="563.18" y="-343" font-family="Times,serif" font-size="14.00">HAYIR (Tekrar Bekle)</text>
+</g>
+<!-- KOMUT_ACIL&#45;&gt;ACIL_DURUM -->
+<g id="edge20" class="edge">
+<title>KOMUT_ACIL-&gt;ACIL_DURUM</title>
+<path fill="none" stroke="black" d="M373.89,-241.48C364.43,-229.03 351.07,-211.47 340.02,-196.93"/>
+<polygon fill="black" stroke="black" points="342.92,-194.95 334.08,-189.11 337.34,-199.19 342.92,-194.95"/>
+<text xml:space="preserve" text-anchor="middle" x="409.46" y="-209.8" font-family="Times,serif" font-size="14.00">EVET (Polis Ara)</text>
+</g>
+</g>
+</svg>
